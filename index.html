@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <meta charset="UTF-8">
+  <title>Богоцький О.В., ІК-03, лаба  5, варіант 30</title>
+  <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<div class="flex-container">
+  <div style="font-weight: bold; color: white">
+    Введіть інформацію
+  </div>
+  <div>
+    <input type="text" id="name" placeholder="ПІБ (Ттттттт Т.Т.)">
+  </div>
+  <div>
+    <input type="text" id="group" placeholder="Група (ТТ-ЧЧ)">
+  </div>
+  <div>
+    <input type="text" id="fac" placeholder="Факультет (ТТТТ)">
+  </div>
+  <div>
+    <input type="text" id="town" placeholder="Адреса (м. Ттттттт)">
+  </div>
+  <div>
+    <input type="text" id="telegram" placeholder="Telegram (@т_тттттт)">
+  </div>
+  <div>
+    <button onclick="getData()" id="button">Підтвердити!</button>
+  </div>
+  <p id="result" ></p>
+</div>
+<div id="color-palette">
+  <input type="color" id="color-pal" name="body"
+         value="#f6b73c">
+  <label for="color-pal"></label>
+</div>
+<div class="flex-container2">
+  <div class="row">
+    <div  class="node">1</div>
+    <div  class="node">2</div>
+    <div  class="node">3</div>
+    <div  class="node">4</div>
+    <div  class="node">5</div>
+    <div  class="node">6</div>
+  </div>
+  <div class="row">
+    <div class="node">7</div>
+    <div class="node">8</div>
+    <div class="node">9</div>
+    <div class="node">10</div>
+    <div class="node">11</div>
+    <div class="node">12</div>
+  </div>
+  <div class="row">
+    <div class="node">13</div>
+    <div class="node">14</div>
+    <div class="node">15</div>
+    <div class="node">16</div>
+    <div class="node">17</div>
+    <div class="node">18</div>
+  </div>
+  <div class="row">
+    <div class="node">19</div>
+    <div class="node">20</div>
+    <div class="node">21</div>
+    <div class="node">22</div>
+    <div class="node">23</div>
+    <div class="node">24</div>
+  </div>
+  <div id="row30"  class="row">
+    <div id="25" class="node">25</div>
+    <div id="26" class="node">26</div>
+    <div id="27" class="node">27</div>
+    <div id="28" class="node">28</div>
+    <div id="29" class="node">29</div>
+    <div id="30" class="node" onmouseenter="changeColorToRandom(30)"
+         onclick="changeColor(30)" ondblclick="changeRowColor()">30</div>
+  </div>
+  <div class="row">
+    <div class="node">31</div>
+    <div class="node">32</div>
+    <div class="node">33</div>
+    <div class="node">34</div>
+    <div class="node">35</div>
+    <div class="node">36</div>
+  </div>
+</div>
+</body>
+</html>
